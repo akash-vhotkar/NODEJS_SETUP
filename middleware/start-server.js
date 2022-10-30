@@ -9,6 +9,7 @@ module.exports = (app) => {
     function listen() {
         const server = http.createServer(app);
         server.listen(PORT)
+        logger.info('Server is working on port ', PORT);
         console.log(`Server running on port  ${PORT}`);
     }
     listen();

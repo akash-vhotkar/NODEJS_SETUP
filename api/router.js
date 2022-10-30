@@ -1,8 +1,6 @@
 const router  = require('express').Router();
+const userRouter  = require('./user-service/router');
 
-router.get('/name', (req, res)=>{
-    return res.status(200).json('Server Working file')
-    
-})
 
+router.use('/user', userRouter)
 module.exports  =router;
