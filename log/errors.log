@@ -1,0 +1,22 @@
+[2022-11-08T23:30:18.807] [ERROR] default - TypeError: userService.getAllUsers is not a function
+    at getAllUsers (C:\Practise\NODEJS_SETUP\api\user-service\controller.js:8:46)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:47:12)
+[2022-11-08T23:30:22.823] [ERROR] default - TypeError: userService.getAllUsers is not a function
+    at getAllUsers (C:\Practise\NODEJS_SETUP\api\user-service\controller.js:8:46)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:47:12)

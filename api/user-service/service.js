@@ -29,6 +29,16 @@ class userService {
         return new Error('Something went wront');
     }
   }
+  async getAllUsers(){
+    try {
+    const data = await userModel.find();
+    return data;
+
+    }
+    catch(error){
+      return new Error('Something went wrong ');
+    }
+  }
 }
 
 module.exports  = new  userService();

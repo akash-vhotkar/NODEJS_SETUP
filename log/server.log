@@ -43,3 +43,35 @@
 [2022-10-31T00:49:18.886] [INFO] default - Server is working on port  9000
 [2022-10-31T00:50:08.796] [INFO] default - Server is working on port  9000
 [2022-10-31T00:51:01.309] [INFO] default - Server is working on port  9000
+[2022-11-08T23:20:23.882] [INFO] default - Server is working on port  9000
+[2022-11-08T23:22:40.372] [INFO] default - Server is working on port  9000
+[2022-11-08T23:23:24.517] [INFO] default - Server is working on port  9000
+[2022-11-08T23:23:50.980] [INFO] default - Server is working on port  9000
+[2022-11-08T23:23:55.743] [INFO] default - Server is working on port  9000
+[2022-11-08T23:27:33.159] [INFO] default - Server is working on port  9000
+[2022-11-08T23:28:04.336] [INFO] default - Server is working on port  9000
+[2022-11-08T23:30:12.427] [INFO] default - Server is working on port  9000
+[2022-11-08T23:30:18.807] [ERROR] default - TypeError: userService.getAllUsers is not a function
+    at getAllUsers (C:\Practise\NODEJS_SETUP\api\user-service\controller.js:8:46)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:47:12)
+[2022-11-08T23:30:22.823] [ERROR] default - TypeError: userService.getAllUsers is not a function
+    at getAllUsers (C:\Practise\NODEJS_SETUP\api\user-service\controller.js:8:46)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Practise\NODEJS_SETUP\node_modules\express\lib\router\index.js:47:12)
+[2022-11-08T23:31:23.042] [INFO] default - Server is working on port  9000
+[2022-11-08T23:31:53.299] [INFO] default - Server is working on port  9000
